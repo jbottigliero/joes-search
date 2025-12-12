@@ -38,7 +38,7 @@
       },
       "components": {
         "Result": {
-          "heading": "entries[0].content.name",
+          "heading": "subject",
           "fields": [
             {
               "label": "Tags",
