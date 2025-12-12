@@ -39,6 +39,7 @@
       "components": {
         "Result": {
           "heading": "subject",
+          "summary": "entries[0].content.name"
           "fields": [
             {
               "label": "Tags",
@@ -47,6 +48,14 @@
             {
               "label": "Region",
               "property": "entries[0].content.region"
+            }
+          ]
+        },
+        "ResultListing": {
+           "fields": [
+            {
+              "label": "Tags",
+              "property": "entries[0].content.tags"
             }
           ]
         }
